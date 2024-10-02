@@ -1,0 +1,20 @@
+.work {
+  text-align: center;
+}
+.work__title {
+  color: var(--grey-color);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-bottom: 14px;
+}
+.work__descr {
+  color: var(--grey-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 143%;
+  margin-bottom: 80px;
+}
+.work__img-case {
+  display: flex;
+}/*# sourceMappingURL=work.css.map */

@@ -1,0 +1,58 @@
+.consultation{
+  background-image: url(../img/consultation-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 950px;
+  padding-bottom: 226px;
+  @include medium-tablet{
+    padding: 0;
+    background-image: none;
+  }
+  &__text{
+    margin-bottom: 24px;
+    @include medium-tablet{
+      margin-bottom: 15px;
+    }
+  }
+  &__title{
+    margin-bottom: 36px;
+    max-width: 580px;
+    @include medium-tablet{
+      line-height: 50px;
+      margin-bottom: 40px;
+    }
+  }
+  &__list{
+    max-width: 438px;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 50px;
+    @include medium-tablet{
+      margin-bottom: 35px;
+    }
+  }
+  &__item{
+    color: var(--grey-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+
+    padding-left: 22px;
+
+    background-image: url(../img/list-bullet.svg);
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+  }
+  &__btn{
+    border-radius: 8px;
+    background-color: rgb(254, 216, 76);
+
+    color: var(--grey-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    padding: 30px 50px;
+    @include medium-tablet{
+      padding: 20px 35px;
+    }
+  }
+}

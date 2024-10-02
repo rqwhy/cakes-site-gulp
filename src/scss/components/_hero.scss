@@ -1,0 +1,90 @@
+.hero{
+  background-image: url(../img/hero-bg.jpeg);
+  background-position: center;
+  padding: 307px 0 465px;
+  @include medium-tablet{
+    padding: 230px 0;
+    background-image: url(../img/hero-desctop-bg.png);
+    background-color: #081130;
+    background-repeat: no-repeat;
+    background-position-y: 550px;
+  }
+
+  &__addition{
+    color: rgb(46, 54, 62);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 10%;
+
+    border-radius: 5px;
+    background: rgb(242, 246, 250);
+
+    padding: 10px 18px;
+    margin-bottom: 24px;
+    @media (max-width: (1024px)) {
+      padding: 5px 9px;
+
+    }
+  }
+  &__text{
+    color: var(--light-color);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1px;
+    max-width: 647px;
+
+    margin-bottom: 24px;
+    @media (max-width: (1024px)) {
+      margin: 5px 0 15px;
+      font-size: 36px;
+      font-weight: 600;
+      max-width: 800px;
+
+      line-height: 40px;
+    }
+  }
+  &__descr{
+    color: var(--light-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 143%;
+
+    display: block;
+    max-width: 450px;
+  }
+  &__block{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    @media (max-width: (1024px)) {
+      margin-top: 30px;
+    }
+  }
+
+  &__link{
+    padding: 30px 50px;
+    color: rgb(46, 54, 62);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+
+    border-radius: 8px;
+    background: rgb(254, 216, 76);
+    @media (max-width: (1024px)) {
+      padding: 20px 30px;
+      font-size: 12px;
+    }
+  }
+  &__explanation{
+    color: var(--light-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+
+    max-width: 140px;
+  }
+}
