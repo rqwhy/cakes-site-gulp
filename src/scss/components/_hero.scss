@@ -9,6 +9,15 @@
     background-repeat: no-repeat;
     background-position-y: 550px;
   }
+  @include mobile{
+    padding: 120px 0 0 0;
+  }
+  @include mobile{
+    max-height: 740px;
+    &::after{
+      content: url(../img/order-cloud-bottom.png);
+    }
+  }
 
   &__addition{
     color: rgb(46, 54, 62);
@@ -43,6 +52,9 @@
       max-width: 800px;
 
       line-height: 40px;
+    }
+    @include mobile{
+      font-size: 32px;
     }
   }
   &__descr{

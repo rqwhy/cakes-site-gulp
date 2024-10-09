@@ -26,7 +26,14 @@
       content: url(../img/order-cloud-bottom.png);
 
       bottom: -5px;
+      @include mobile{
+        bottom: -40px;
+      }
     }
+  }
+  @include mobile{
+    background-image: none;
+    padding-bottom: 195px;
   }
   &__container{
     @include medium-tablet{

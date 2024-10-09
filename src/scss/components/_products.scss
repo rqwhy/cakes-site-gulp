@@ -7,9 +7,15 @@
     padding-bottom: 110px;
     background-image: url();
   }
+  @include mobile{
+    padding: 0;
+  }
   &__container{
     @include medium-tablet{
       padding: 0 0 110px;
+    }
+    @include mobile{
+      padding: 0;
     }
   }
   &__title{
@@ -107,6 +113,11 @@
       max-width: none;
       width: 100%;
       box-sizing: border-box;
+    }
+  }
+  &__navigation{
+    @include mobile{
+      display: none;
     }
   }
 }

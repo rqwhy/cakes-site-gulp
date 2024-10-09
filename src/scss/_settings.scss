@@ -85,6 +85,9 @@ a {
   @include medium-tablet{
     padding: 0 60px;
   }
+  @include mobile{
+    padding: 0 30px;
+  }
 }
 
 .js-focus-visible :focus:not(.focus-visible) {

@@ -15,6 +15,10 @@
       font-size: 38px;
       margin-bottom: 10px;
     }
+    @include mobile{
+      font-size: 34px;
+      line-height: 40px;
+    }
   }
   &__descr{
     color: var(--grey-color);
@@ -32,9 +36,16 @@
     @include medium-tablet{
       width: 400px;
     }
+    @include mobile{
+      width: 180px;
+    }
   }
   &__img-case{
     column-gap: 9px;
+    @include mobile{
+      justify-content: center;
+      column-gap: 15px;
+    }
   }
   &__images{
     row-gap: 9px;
@@ -49,6 +60,9 @@
       display: flex;
       row-gap: 9px;
       flex-direction: column;
+    }
+    @include mobile{
+      row-gap: 15px;
     }
   }
 }
