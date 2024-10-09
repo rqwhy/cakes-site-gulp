@@ -116,6 +116,10 @@
     }
   }
   &__navigation{
+    display: none;
+    @include medium-tablet{
+      display: flex;
+    }
     @include mobile{
       display: none;
     }

@@ -77,6 +77,10 @@
     background-repeat: no-repeat;
     border: 0;
     background-position: 31px center;
+    &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
 
     &::placeholder{
       color: rgb(126, 134, 142);

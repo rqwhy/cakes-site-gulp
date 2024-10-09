@@ -1,7 +1,8 @@
 .hero{
   background-image: url(../img/hero-bg.jpeg);
-  background-position: center;
+  background-position: -95px center;
   padding: 307px 0 465px;
+
   @include medium-tablet{
     padding: 230px 0;
     background-image: url(../img/hero-desctop-bg.png);
